@@ -1,0 +1,170 @@
+solid ../data/../data/export/sup_0.stl
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex -8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex -8.000000e+00 8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex -8.000000e+00 8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 8.000000e+00 -3.302190e+01
+vertex 8.000000e+00 8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 8.000000e+00 -3.702190e+01
+vertex -8.000000e+00 8.000000e+00 -3.302190e+01
+vertex 8.000000e+00 8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 -8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 -8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 -8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 8.000000e+00 -3.302190e+01
+vertex 8.000000e+00 -8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex 8.000000e+00 -8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 -3.302190e+01
+vertex 8.000000e+00 8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 8.000000e+00 -3.302190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 -8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 -3.702190e+01
+vertex -8.000000e+00 8.000000e+00 -3.302190e+01
+vertex -8.000000e+00 8.000000e+00 -3.702190e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.500000e+01
+vertex -8.000000e+00 -8.000000e+00 3.500000e+01
+vertex -8.000000e+00 8.000000e+00 3.500000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.500000e+01
+vertex -8.000000e+00 8.000000e+00 3.500000e+01
+vertex 8.000000e+00 8.000000e+00 3.500000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 8.000000e+00 3.500000e+01
+vertex 8.000000e+00 8.000000e+00 3.900000e+01
+vertex 8.000000e+00 8.000000e+00 3.500000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 8.000000e+00 3.500000e+01
+vertex -8.000000e+00 8.000000e+00 3.900000e+01
+vertex 8.000000e+00 8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.900000e+01
+vertex -8.000000e+00 -8.000000e+00 3.900000e+01
+vertex -8.000000e+00 -8.000000e+00 3.500000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.900000e+01
+vertex -8.000000e+00 8.000000e+00 3.900000e+01
+vertex -8.000000e+00 -8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.500000e+01
+vertex 8.000000e+00 8.000000e+00 3.500000e+01
+vertex 8.000000e+00 8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.500000e+01
+vertex 8.000000e+00 8.000000e+00 3.900000e+01
+vertex 8.000000e+00 -8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 3.500000e+01
+vertex 8.000000e+00 -8.000000e+00 3.500000e+01
+vertex 8.000000e+00 -8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex 8.000000e+00 -8.000000e+00 3.900000e+01
+vertex 8.000000e+00 8.000000e+00 3.900000e+01
+vertex -8.000000e+00 8.000000e+00 3.900000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 3.900000e+01
+vertex -8.000000e+00 8.000000e+00 3.900000e+01
+vertex -8.000000e+00 -8.000000e+00 3.500000e+01
+endloop
+endfacet
+facet normal 0 0 0
+outer loop
+vertex -8.000000e+00 -8.000000e+00 3.500000e+01
+vertex -8.000000e+00 8.000000e+00 3.900000e+01
+vertex -8.000000e+00 8.000000e+00 3.500000e+01
+endloop
+endfacet
+endsolid ../data/../data/export/sup_0.stl

@@ -77,6 +77,7 @@ public:
     void AppendMechs(iglViewer &viewer);
     void AppendCurve(iglViewer &viewer);
     void ClearViewerList(iglViewer &viewer);
+    void ExportAsSTL(const std::string& dir = "export/linkage.stl");
 };
 
 

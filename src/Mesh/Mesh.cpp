@@ -18,7 +18,9 @@
 #include "Utility/HelpFunc.h"
 #include <fstream>
 #include <iostream>
-
+#include <igl/writeOBJ.h>
+#include <igl/writeSTL.h>
+#include <igl/FileEncoding.h>  // ★追加（古い libigl なら不要）
 
 ///=========================================================================================///
 ///                                   Initialization
@@ -303,6 +305,20 @@ void Mesh::saveOBJ(string _filename)
     }
 
     ofile.close();
+}
+
+void Mesh::saveSTL(std::string _filename, bool binary /* = false */)
+{
+    std::string fullPath = "../data/" + _filename;
+
+    // bool → enum 変換
+    igl::FileEncoding enc = binary ? igl::FileEncoding::Binary
+                                   : igl::FileEncoding::Ascii;
+
+    if (!igl::writeSTL(fullPath, verM, triM, enc))
+    {
+        std::cerr << "[ERROR] writeSTL failed: " << fullPath << std::endl;
+    }
 }
 
 double Mesh::GetVolume()

@@ -27,7 +27,7 @@
 #include "IOfile/IOMechs.h"
 #include "CamLinks/CamLinksVIsua.h"
 
-
+extern bool is_Export;
 ///////////////////////////////////////////////////////////////
 // Global Variables
 ///////////////////////////////////////////////////////////////
@@ -100,6 +100,7 @@ void InitSetting()
     is_Optimize = false;
     is_FileModel = false;
     is_OptModel = false;
+    is_Export    = false;   // ★追加
 
     /// max itr times, better larger than 500
     itrMaxTimes = 500;
@@ -230,6 +231,14 @@ int main(int argc, char *argv[])
                     isFirstCall = false;
                 }
 
+// -------- STL Export Trigger ---------------------------------
+                if (is_Export && is_OptModel)          // 最適化済みモデルがある時だけ
+                {
+                    camlinksV->ExportAsSTL();          // CamLinksVisua の新関数
+                    is_Export = false;                 // フラグを戻す
+                    frame = 0;                         // （任意）再生位置をリセット
+                }
+
                 return 0;
             };
 
@@ -239,4 +248,3 @@ int main(int argc, char *argv[])
 
     return 1;
 }
-

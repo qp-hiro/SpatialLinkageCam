@@ -13,6 +13,19 @@
 #include <unsupported/Eigen/NonLinearOptimization>
 #include "Mesh/ConVexHull.h"
 #include "CamPart/Groove.h"
+#include <igl/writeSTL.h>     // 忘れずに
+
+// ★ 既存の #include <filesystem> を下記ブロックに置き換え
+#if __has_include(<filesystem>)
+  #include <filesystem>
+  namespace fs = std::filesystem;
+#elif __has_include(<experimental/filesystem>)
+  #include <experimental/filesystem>
+  namespace fs = std::experimental::filesystem;
+#else
+  #error "No <filesystem> (nor <experimental/filesystem>) found"
+#endif
+
 
 CamLinksVisua::CamLinksVisua()
 {
@@ -30,6 +43,37 @@ CamLinksVisua::CamLinksVisua()
 
 CamLinksVisua::~CamLinksVisua()
 {
+}
+
+
+void CamLinksVisua::ExportAsSTL(const std::string& fn)
+{
+    namespace fs = std::filesystem;          // ＊既に入っていれば不要
+    fs::path dir = "../data/export/";        // 元々使っている出力先
+    fs::create_directories(dir);             // 無ければ作る
+
+    // ── ★★ ここから追加 ★★ ───────────────────────────
+    // ① リンク5本
+    for(size_t i = 0; i < linksMesh.size(); ++i)
+        linksMesh[i]->saveSTL((dir / ("link_" + std::to_string(i) + ".stl")).string());
+
+    // ② カム本体
+    cam2Mesh->saveSTL((dir / "cam.stl").string());
+
+    // ③ 支持体など（あれば）
+    for(size_t i = 0; i < camSups.size(); ++i)
+        camSups[i]->saveSTL((dir / ("sup_" + std::to_string(i) + ".stl")).string());
+    
+    // ---- ① 機構を１つの Mesh に統合 --------------------------
+    MeshBoolean mb;
+    Mesh* whole = mb.MeshConnect(linksMesh);       // 5 本リンク
+    whole       = mb.MeshConnect(whole, cam2Mesh); // カム本体
+    for (auto& s : camSups)                        // 支持体など
+        whole = mb.MeshConnect(whole, s);
+
+    // ---- ② STL 書き出し --------------------------------------
+    whole->saveSTL(fn, /*binary=*/false);          // Mesh::saveSTL を呼ぶ
+    std::cout << "[INFO] STL exported: ../data/" << fn << std::endl;
 }
 
 

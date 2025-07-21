@@ -18,6 +18,8 @@
 #include "Utility/HelpTypedef.h"
 #include "Render/libigl_Render.h"
 
+bool  is_Export = false;   // ★ ここが唯一の定義
+
 using std::vector;
 using std::cout;
 using std::endl;
@@ -172,6 +174,11 @@ void setViewerUI(igl::opengl::glfw::Viewer &viewer)
                 frame = 0;
             }
             ImGui::SameLine(0, button_horizontalGap);
+
+            if(ImGui::Button("Export STL", ImVec2(button_width, 0)))
+            {
+                is_Export = true;            // ← フラグを立てるだけ
+            }
             ///save mat.dat
             /*if(ImGui::Button("Save CamLinkage", ImVec2(button_width, 0)))
             {

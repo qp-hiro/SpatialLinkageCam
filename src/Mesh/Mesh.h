@@ -61,7 +61,8 @@ public:
 
     /// save .obj
     void saveOBJ(string _filename);
-
+    /// save .stl  ←★ココを追加
+    void saveSTL(string _filename, bool binary = false);
     double GetVolume();
 };
 

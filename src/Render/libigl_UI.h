@@ -26,5 +26,4 @@ namespace igl
 //// manage all UI here
 void setViewerUI(igl::opengl::glfw::Viewer &viewer);
 
-
 #endif //INTERLOCKSHELL_LIBIGL_UI_H

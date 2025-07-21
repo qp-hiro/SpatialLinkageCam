@@ -1,9 +1,11 @@
 # Hashes of file build rules.
-20677d1344d35a874a86e8a1985880cf CMakeFiles/cgal-download-complete
-7a7b979d16498ed5f8e0f28c0b3f24ec cgal-download-prefix/src/cgal-download-stamp/cgal-download-build
-e9401469fb580ceaaa7234dcf12901e3 cgal-download-prefix/src/cgal-download-stamp/cgal-download-configure
-f56482612d3dcbcd312ec50cec9c1a98 cgal-download-prefix/src/cgal-download-stamp/cgal-download-download
-1d86f3016548ea802d83eedc33127034 cgal-download-prefix/src/cgal-download-stamp/cgal-download-install
-3fecbd6da810647179f4960b01396977 cgal-download-prefix/src/cgal-download-stamp/cgal-download-mkdir
-2deb77cd098e9f7bba850586b1facd4b cgal-download-prefix/src/cgal-download-stamp/cgal-download-patch
-10d016c0268f11a238d34e1036cc8ba6 cgal-download-prefix/src/cgal-download-stamp/cgal-download-test
+e0bf78bf1c65f28a661c6cf29a50a9a9 CMakeFiles/cgal-download
+37e58f1ca286c7b9d38e0a5ba9a59b5b CMakeFiles/cgal-download-complete
+cfe7872afdddc138e6c4384e3790240f cgal-download-prefix/src/cgal-download-stamp/cgal-download-build
+0141cccaf80d680331a8df0aa3c6d14b cgal-download-prefix/src/cgal-download-stamp/cgal-download-configure
+5828acdf39283024e39ba4af743996d3 cgal-download-prefix/src/cgal-download-stamp/cgal-download-download
+3cf1591248097e11842a55a21784b016 cgal-download-prefix/src/cgal-download-stamp/cgal-download-install
+4293ff8010173bf1b1d4f83f03acbff6 cgal-download-prefix/src/cgal-download-stamp/cgal-download-mkdir
+4a472330243cf1174da6e8929a20acea cgal-download-prefix/src/cgal-download-stamp/cgal-download-patch
+f073957ec48d1bf295cb6aff68e2b3de cgal-download-prefix/src/cgal-download-stamp/cgal-download-test
+362b67585a282c39e48e986871f3dbbe cgal-download-prefix/src/cgal-download-stamp/cgal-download-update

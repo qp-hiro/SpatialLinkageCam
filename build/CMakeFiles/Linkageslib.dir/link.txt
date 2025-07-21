@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLinkageslib.a CMakeFiles/Linkageslib.dir/src/CamLinks/CamLinksVIsua.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/Cam.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/Cam1R.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/Cam2R.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/CamC.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/CamP.cpp.o CMakeFiles/Linkageslib.dir/src/CamPart/Groove.cpp.o CMakeFiles/Linkageslib.dir/src/Linkages/5barlinksDesign.cpp.o CMakeFiles/Linkageslib.dir/src/Linkages/Joint.cpp.o
+/usr/bin/ranlib libLinkageslib.a
